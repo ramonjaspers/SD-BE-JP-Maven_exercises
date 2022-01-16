@@ -53,7 +53,7 @@ public class Person {
         this.age = age;
     }
 
-    public voidage() {
+    public void increaseAge() {
         this.age++;
     }
 

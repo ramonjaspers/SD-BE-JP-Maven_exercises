@@ -26,7 +26,7 @@ public class PersonTest {
         Person person = new Person("Nick");
         person.setAge(68);
         //call function which increases age by1
-        person.age();
+        person.increaseAge();
         assertEquals(69, person.getAge());
     }
 
